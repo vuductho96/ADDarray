@@ -17,10 +17,10 @@ else {
  Console.WriteLine("Nhap vao so can chen:");
  int value = Convert.ToInt32(Console.ReadLine());
  for (int i=N-1;i>index;i--){
-    songuyen[i]=songuyen[i-1];
+    songuyen[i]=songuyen[i-1];//dich chuyen phan tu sang ben trai
 
 
-}songuyen[index]=value;
+}songuyen[index]=value;////tang kich thuoc mang len 1 don vi
  Console.WriteLine("Mang sau khi chen la:");
                 for (int i = 0; i < N; i++)
                 {
